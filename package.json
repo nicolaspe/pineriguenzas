@@ -1,0 +1,22 @@
+{
+  "name": "pineriguenzas",
+  "version": "1.0.0",
+  "description": "Humor is a powerful tool, but not when your president is a clown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaspe/pineriguenzas.git"
+  },
+  "keywords": [
+    "political"
+  ],
+  "author": "Nicolas Escarpentier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaspe/pineriguenzas/issues"
+  },
+  "homepage": "https://github.com/nicolaspe/pineriguenzas#readme"
+}
