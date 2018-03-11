@@ -3,8 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Piñerigüenzas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"> </script>
+    <script src="basic_html.js"></script>
   </head>
   <body>
-    <h3>El humor es una herramienta poderosa,... excepto cuando tu presidente es un payaso.</h3>
+    <div class="section header">
+      <div class="header_title"> <div class="menu_box" id="menu_sym">&#9776;</div> Piñerigüenzas</div>
+      <!-- <p id="desc">El humor es una herramienta poderosa,... excepto cuando tu presidente es un payaso.</p> -->
+      <div class="menu_content" id="menu_content">
+        <ul>
+          <li>Aporta</li>
+          <li>Acerca de...</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="section contador">
+      <div class="cont_row" id="cont_ini">Llevamos</div>
+      <div class="cont_row" id="conteo"> 00 </div>
+      <div class="cont_row" id="cont_fin">días sin Piñerigüenzas</div>
+    </div>
+
+
+    <div class="section historial">
+      <h2>&nbsp;&nbsp;&nbsp; Últimas Piñerigüenzas</h2>
+      <div class="hist_row">
+        <div class="hist_col" id="hist_fecha">11-Mar-2018</div>
+        <div class="hist_col" id="hist_title">Piñera presidente</div>
+        <div class="hist_col" id="hist_link">Link</div>
+      </div>
+      <div class="hist_row">
+        <div class="hist_col" id="hist_fecha">01-Dic-1949</div>
+        <div class="hist_col" id="hist_title">Piñera nace</div>
+        <div class="hist_col" id="hist_link">Link</div>
+      </div>
+    </div>
+
+    <div class="section footer">
+      © 2018
+    </div>
+
   </body>
 </html>

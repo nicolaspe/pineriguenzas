@@ -2,7 +2,7 @@
   "name": "pineriguenzas",
   "version": "1.0.0",
   "description": "Humor is a powerful tool, but not when your president is a clown.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/nicolaspe/pineriguenzas/issues"
   },
-  "homepage": "https://github.com/nicolaspe/pineriguenzas#readme"
+  "homepage": "https://github.com/nicolaspe/pineriguenzas#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "sqlite3": "^3.1.13"
+  }
 }
