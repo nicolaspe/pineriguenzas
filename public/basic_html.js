@@ -5,22 +5,28 @@ window.addEventListener('load', onLoad);
 function onLoad() {
   // variable init
   menu = document.getElementById('menu_content');
-  menu_hidden = false;
-  click_menu();
+  hide_menu();
+  menu_hidden = true;
   console.log("loaded!");
 
-  $( "#menu_sym" ).click(function() {
-    click_menu();
-  });
+  // $( "#menu_sym" ).click(function() {
+  //   click_menu();
+  // });
 }
 
 
-
+// menu show-hide
 function click_menu(){
   if(!menu_hidden){
-    menu.style.display = "none"
+    hide_menu();
   } else {
-    menu.style.display = "block"
+    show_menu();
   }
   menu_hidden = !menu_hidden;
+}
+function hide_menu(){
+  menu.style.display = "none"
+}
+function show_menu(){
+  menu.style.display = "block"
 }

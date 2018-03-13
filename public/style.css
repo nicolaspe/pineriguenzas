@@ -65,6 +65,7 @@ body {
 }
 
 
+/* == SECTION == */
 .section {
   width: 100%;
   margin: 0px;
@@ -72,6 +73,7 @@ body {
 }
 
 
+/* == CONTADOR == */
 .contador {
   text-align: center;
   font-weight: bold;
@@ -91,6 +93,19 @@ body {
 }
 
 
+/* == PHRASE == */
+.phrase {
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.phrase p {
+  padding: 0;
+  margin: 2px;
+}
+
+
+/* == HISTORIAL == */
 .historial {
   background: #0F70B1;
   color: #FFFFFF;
@@ -112,6 +127,18 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.hist_row p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.hist_row a {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: inherit;
+  text-decoration: none;
+  font-style: italic;
+  cursor: pointer;
+}
 .hist_col {
   display: inline-block;
   text-align: left;
@@ -120,10 +147,11 @@ body {
   min-width: 150px;
   width: 15%;
   text-align: center;
+  font-size: 0.9em;
 }
 #hist_title {
   min-width: 150px;
-  width: 50%;
+  width: 75%;
   text-align: left;
 }
 #hist_link {
@@ -132,6 +160,8 @@ body {
   text-align: center;
 }
 
+
+/* == FOOTER == */
 .footer {
   background: #0F70B1;
   color: #FFFFFF;
@@ -140,4 +170,9 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 0.5px solid white;
+}
+.footer #credits ,a{
+  color: #0F70B1;
+  text-decoration: none;
+  cursor: none;
 }
