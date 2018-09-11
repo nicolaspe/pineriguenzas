@@ -99,7 +99,7 @@ function flush_historial(){
   let hist = document.getElementsByClassName('historial')[0];
   let hist_list = hist.children;
   // loop and destroy, but only from index 1 onwards
-  for (var i = 1; i < hist_list.length; i++) {
+  for (let i = 1; i < hist_list.length; i++) {
     hist_list[i].remove();
   }
 }
